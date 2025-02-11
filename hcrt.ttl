@@ -53,7 +53,7 @@
 
 <diagram> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:definition "Dies ist ein Test von ecternen Markdown-Links:[example](https://example.org)."@de ;
+          skos:definition "Dies ist ein Test von externen Markdown-Links:[example](https://example.org)."@de ;
           skos:prefLabel "Diagramm"@de, "Diagram"@en, "Diagram"@nl, "Діаграма"@uk ;
           skos:altLabel "Grafik"@de, "Графіка"@uk .
 
