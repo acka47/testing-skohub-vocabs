@@ -14,7 +14,7 @@
         vann:preferredNamespacePrefix "hcrt" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
         skos:hasTopConcept <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
-            <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>, 
+            <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>,
             <portal>, <questionnaire>, <script>, <sheet_music>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page>,
             <worksheet>, <other> .
 
@@ -24,30 +24,36 @@
 
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:note "Dies ist ein Test von internen Markdown-Links:[audio](#audio)." ;
           skos:prefLabel "Lernkontrolle"@de, "Assessment"@en, "Evaluatie"@nl, "Оцінювання"@uk ;
           skos:altLabel "Assessment"@de ;
           skos:scopeNote "unter anderem (Selbst-)Tests"@de .
 
 <audio> a skos:Concept;
            skos:topConceptOf <scheme> ;
+           skos:changeNote "Dies ist ein Test von internen Markdown-Links:[case study](#case_study)." ;
            skos:prefLabel "Audio"@de, "Audio Recording"@en, "Audio"@nl, "Аудіозапис"@uk ;
            skos:altLabel "Tonaufnahme"@de, "Звукозапис"@uk .
 
 <case_study> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:historyNote "Dies ist ein Test von internen Markdown-Links:[course](#course)." ;
           skos:prefLabel "Fallstudie"@de, "Case Study"@en, "Casestudy"@nl, "Приклад"@uk .
 
 <course> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:scopeNote "Dies ist ein Test von internen Markdown-Links:[data](#data)." ;
           skos:prefLabel "Kurs"@de, "Course"@en, "Cursus"@nl, "Курс"@uk .
 
 <data> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:editorialNote "Dies ist ein Test von internen Markdown-Links:[diagram](#diagram)." ;
           skos:prefLabel "Daten"@de, "Data"@en, "Gegevens"@nl, "Дані"@uk ;
           skos:scopeNote "unter anderem Roh- oder Beispieldaten"@de, "amongst others raw and example data"@en, "onder andere ruwe gegevens en voorbeeldgegevens"@nl, "включно з необробленими даними та зразками"@uk .
 
 <diagram> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:definition "Dies ist ein Test von ecternen Markdown-Links:[example](https://example.org)." ;
           skos:prefLabel "Diagramm"@de, "Diagram"@en, "Diagram"@nl, "Діаграма"@uk ;
           skos:altLabel "Grafik"@de, "Графіка"@uk .
 
