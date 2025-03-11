@@ -5,9 +5,10 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <scheme> a skos:ConceptScheme ;
-  dc:title "Lernziele zum Forschungsdatenmanagement"@de, "Learning goals for research data management"@en ;
+  dct:title "Lernziele zum Forschungsdatenmanagement"@de, "Learning goals for research data management"@en ;
   dc:creator "UAG Schulung/Fortbildung der DINI/nestor-AG Forschungsdaten"@de, "Sub-working group Schulung/Fortbildung of DINI/nestor-AG Forschungsdaten"@en ;
   vann:preferredNamespaceUri "https://w3id.org/ag-fdm/lzm/" ;
+  dct:description "Dies ist eine Platzhalter-Beschreibung."@de , "This is a placeholder"@en ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
   skos:hasTopConcept <Anonymisierung>, <Archivierung>, <Authentizitaet>, <Begriffssystem>, <DataSteward>, <Dateibenennungskonvention>, <Dateiformat>, <Dateityp>, <Daten>, <Datenbereinigung>, <Datenformat-todo>, <Datenkuratierung>, <Datenqualitaet>, <Datenschutz>, <Datensicherheit>, <Datentyp>, <DidaktischesSzenario>, <Evaluation>, <FDMServices>, <Feedback>, <InformierteEinwilligung>, <Integritaet>, <Interoperabilitaet-todo>, <ITInfrastrukturen>, <KontrolliertesVokabular>, <Kompetenz>, <Langzeitarchivierung>, <LehrLernprozess>, <Lernziel>, <Metadaten>, <Metadatenschema>, <Metadatenstandard>, <Objektorientierung>, <Ontologie>, <PersonenbezogeneDaten>, <Programmierstruktur>, <Proprietaer>, <Pseudonymisierung>, <Repositorium>, <Schoepfungshoehe>, <Taxonomie>, <Thesaurus>, <Zugriffskontrolle>  .
 
