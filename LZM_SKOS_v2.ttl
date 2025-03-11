@@ -1,7 +1,7 @@
 @base <https://w3id.org/ag-fdm/lzm/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <https://w3id.org/ag-fdm/lzm> a skos:ConceptScheme ;
@@ -9,7 +9,7 @@
   dc:creator "UAG Schulung/Fortbildung der DINI/nestor-AG Forschungsdaten"@de, "Sub-working group Schulung/Fortbildung of DINI/nestor-AG Forschungsdaten"@en ;
   vann:preferredNamespaceUri "https://w3id.org/ag-fdm/lzm/" ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-  skos:hasTopConcept <Anonymisierung>, <Archivierung>, <Authentizität>, <Begriffssystem>, <DataSteward>, <Dateibenennungskonvention>, <Dateiformat>, <Dateityp>, <Daten>, <Datenbereinigung>, <Datenformat-todo>, <Datenkuratierung>, <Datenqualität>, <Datenschutz>, <Datensicherheit>, <Datentyp>, <DidaktischesSzenario>, <Evaluation>, <FDMServices>, <Feedback>, <InformierteEinwilligung>, <Integrität>, <Interoperabilität-todo>, <ITInfrastrukturen>, <KontrolliertesVokabular>, <Kompetenz>, <Langzeitarchivierung>, <LehrLernprozess>, <Lernziel>, <Metadaten>, <Metadatenschema>, <Metadatenstandard>, <Objektorientierung>, <Ontologie>, <PersonenbezogeneDaten>, <Programmierstruktur>, <Proprietär>, <Pseudonymisierung>, <Repositorium>, <Schöpfungshöhe>, <Taxonomie>, <Thesaurus>, <Zugriffskontrolle>  .
+  skos:hasTopConcept <Anonymisierung>, <Archivierung>, <Authentizitaet>, <Begriffssystem>, <DataSteward>, <Dateibenennungskonvention>, <Dateiformat>, <Dateityp>, <Daten>, <Datenbereinigung>, <Datenformat-todo>, <Datenkuratierung>, <Datenqualitaet>, <Datenschutz>, <Datensicherheit>, <Datentyp>, <DidaktischesSzenario>, <Evaluation>, <FDMServices>, <Feedback>, <InformierteEinwilligung>, <Integritaet>, <Interoperabilitaet-todo>, <ITInfrastrukturen>, <KontrolliertesVokabular>, <Kompetenz>, <Langzeitarchivierung>, <LehrLernprozess>, <Lernziel>, <Metadaten>, <Metadatenschema>, <Metadatenstandard>, <Objektorientierung>, <Ontologie>, <PersonenbezogeneDaten>, <Programmierstruktur>, <Proprietaer>, <Pseudonymisierung>, <Repositorium>, <Schoepfungshoehe>, <Taxonomie>, <Thesaurus>, <Zugriffskontrolle>  .
 
 <Anonymisierung>
   a skos:Concept ;
@@ -25,7 +25,7 @@
   skos:closeMatch <https://data-affairs.affective-societies.de/glossary/archivierung/> ;
   skos:editorialNote "Affective Societies. (o. J.). Archivierung. Data Affairs. Abgerufen 26. Februar 2025, von https://data-affairs.affective-societies.de/glossary/archivierung/"@de .
 
-<Authentizität>
+<Authentizitaet>
   a skos:Concept ;
   skos:topConceptOf <https://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Authentizität"@de, "authenticity"@en ;
@@ -97,7 +97,7 @@
   skos:closeMatch <https://doi.org/10.5281/ZENODO.10626170> ;
   skos:editorialNote "CODATA RDM Terminology Working Group. (2023). CODATA RDM Terminology (2023, v0001): Overview. https://doi.org/10.5281/ZENODO.10626170"@de .
 
-<Datenqualität>
+<Datenqualitaet>
   a skos:Concept ;
   skos:topConceptOf <https://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Datenqualität"@de, "data quality"@en ;
@@ -163,7 +163,7 @@
   skos:closeMatch <https://www.bfdi.bund.de/DE/Buerger/Inhalte/Allgemein/Datenschutz/Einwilligung.html>, <https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng> ;
   skos:editorialNote "BfDI. (o. J.). BfDI - Basiswissen zum Datenschutz—Einwilligung. Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit. Abgerufen 4. März 2025, von https://www.bfdi.bund.de/DE/Buerger/Inhalte/Allgemein/Datenschutz/Einwilligung.html"@de, "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung) (2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"@de .
 
-<Integrität>
+<Integritaet>
   a skos:Concept ;
   skos:topConceptOf <https://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Integrität"@de, "integrity"@en ;
@@ -171,7 +171,7 @@
   skos:closeMatch <https://doi.org/10.31030/1854419> ;
   skos:editorialNote "DIN 31644:2012-04, Information und Dokumentation - Kriterien für vertrauenswürdige digitale Langzeitarchive. (2012). DIN Media GmbH. https://doi.org/10.31030/1854419"@de .
 
-<Interoperabilität-todo>
+<Interoperabilitaet-todo>
   a skos:Concept ;
   skos:topConceptOf <https://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Interoperabilität"@de, "interoperability"@en ;
@@ -280,7 +280,7 @@
   skos:prefLabel "Programmierstruktur"@de, "programming structure"@en ;
   skos:scopeNote "Eine Programmierstruktur ist ein wesentliches Element von Computerprogrammen, das bestimmt, wie ein Programm abläuft und unter welchen Bedingungen Programmteile aufgerufen, übersprungen oder wiederholt werden. Grundlegende Programmierstrukturen sind Anweisungen, Wiederholungen, Verzweigungen und Unterprogramme."@de .
 
-<Proprietär>
+<Proprietaer>
   a skos:Concept ;
   skos:topConceptOf <https://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Proprietär"@de, "proprietary"@en ;
@@ -304,7 +304,7 @@
   skos:closeMatch <https://www.orca.nrw/moodle/mod/book/view.php?id=22027&chapterid=4732>, <https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/> ;
   skos:editorialNote "Kaiser, K., & Rathmann, T. (o. J.). Grundwissen: Datenmanagement in Studium & wissenschaftlicher Praxis. FDM@Studium.nrw Selbstlernkurs. Modul: Was braucht es für eine Datenpublikation? Abgerufen 28. Februar 2025, von https://www.orca.nrw/moodle/mod/book/view.php?id=22027&chapterid=4732"@de, "forschungsdaten.info. (2025b). Repositorien | Veröffentlichen und Archivieren | Themen | Forschungsdaten und Forschungsdatenmanagement. https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/"@de .
 
-<Schöpfungshöhe>
+<Schoepfungshoehe>
   a skos:Concept ;
   skos:topConceptOf <https://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Schöpfungshöhe"@de, "level of creativity"@en ;
