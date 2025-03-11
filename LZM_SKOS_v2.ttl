@@ -36,7 +36,7 @@
   skos:topConceptOf <http://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Begriffssystem"@de, "conceptual system"@en ;
   skos:scopeNote "\"Ein Begriffssystem ist ein ideelles System aus klar voneinander abgrenzbaren Begriffen (auch Konzepte, Klassen, Objekte, Elemente), die durch verschiedenartige Beziehungen, zum Beispiel hierarchisch/ganzheitlich, miteinander verbunden sind.\" (Wikipedia, 2025)"@de ;
-  skos:editorialNote ""@de, "Wikipedia. (2025). Begriffssystem. In Wikipedia. https://de.wikipedia.org/wiki/Begriffssystem"@de ;
+  skos:editorialNote "Wikipedia. (2025). Begriffssystem. In Wikipedia. https://de.wikipedia.org/wiki/Begriffssystem"@de ;
   skos:exactMatch <https://de.wikipedia.org/wiki/Begriffssystem> .
 
 <DataSteward>
@@ -200,7 +200,7 @@
   skos:topConceptOf <http://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Kompetenz"@de, "competency"@en ;
   skos:scopeNote "„Kompetenz bezeichnet (...) die Fähigkeit und Bereitschaft des Einzelnen, Kenntnisse und Fertigkeiten sowie persönliche, soziale und methodische Fähigkeiten zu nutzen und sich durchdacht sowie individuell und sozial verantwortlich zu verhalten.“ (Handbuch zum Deutschen Qualifikationsrahmen. Struktur – Zuordnungen – Verfahren – Zuständigkeiten, o. J., S. 4)"@de ;
-  skos:editorialNote ""@de, "Handbuch zum Deutschen Qualifikationsrahmen. Struktur – Zuordnungen – Verfahren – Zuständigkeiten. (o. J.). Abgerufen 26. Februar 2025, von https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile&v=2"@de ;
+  skos:editorialNote "Handbuch zum Deutschen Qualifikationsrahmen. Struktur – Zuordnungen – Verfahren – Zuständigkeiten. (o. J.). Abgerufen 26. Februar 2025, von https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile&v=2"@de ;
   skos:exactMatch <https://www.dqr.de/dqr/shareddocs/downloads/media/content/dqr_handbuch_01_08_2013.pdf?__blob=publicationFile&v=2> .
 
 <Langzeitarchivierung>
@@ -231,7 +231,7 @@
   skos:topConceptOf <http://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Metadaten"@de, "metadata"@en ;
   skos:scopeNote "„Metadaten sind strukturierte Daten, die Informationen über andere Daten beinhalten – Daten über Daten.“ (Biernacka et al., 2023, S. 59)"@de ;
-  skos:editorialNote ""@de, "Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://doi.org/10.5281/ZENODO.10122153"@de ;
+  skos:editorialNote "Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://doi.org/10.5281/ZENODO.10122153"@de ;
   skos:exactMatch <https://doi.org/10.5281/ZENODO.10122153> .
 
 <Metadatenschema>
@@ -271,7 +271,7 @@
   skos:topConceptOf <http://w3id.org/ag-fdm/lzm> ;
   skos:prefLabel "Personenbezogene Daten"@de, "personal data"@en ;
   skos:scopeNote "“Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Teilinformationen, die gemeinsam zur Identifizierung einer bestimmten Person führen können, stellen ebenfalls personenbezogene Daten dar.” (European Commision, o. J.)"@de ;
-  skos:editorialNote ""@de, "European Commision. (o. J.). Data protection explained—European Commission. Abgerufen 26. Februar 2025, von https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de&etrans=de"@de ;
+  skos:editorialNote "European Commision. (o. J.). Data protection explained—European Commission. Abgerufen 26. Februar 2025, von https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de&etrans=de"@de ;
   skos:exactMatch <https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en?prefLang=de&etrans=de> .
 
 <Programmierstruktur>
