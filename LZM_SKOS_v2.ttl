@@ -1,4 +1,17 @@
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<http://example.org> a skos:ConceptScheme ;
+        dc:title "Lernziele zum Forschungsdatenmanagement"@de, "Learning goals for research data management"@en ;
+        dc:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@de ;
+        dc:creator " UAG Schulung/Fortbildung der DINI/nestor-AG Forschungsdaten" ;
+        dct:issued "2025-04-01" ;
+        vann:preferredNamespaceUri "http://example.org/" ;
+        vann:preferredNamespacePrefix "fdmlg" ;
+        dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        skos:hasTopConcept <http://example.org/concept/Anonymisierung>, <http://example.org/concept/Archivierung>, <http://example.org/concept/Authentizität>, <http://example.org/concept/Begriffssystem>, <http://example.org/concept/DataSteward>, <http://example.org/concept/Dateibenennungskonvention>, <http://example.org/concept/Dateiformat>, <http://example.org/concept/Dateityp>, <http://example.org/concept/Daten>, <http://example.org/concept/Datenbereinigung>, <http://example.org/concept/Datenformat-todo>, <http://example.org/concept/Datenkuratierung>, <http://example.org/concept/Datenqualität>, <http://example.org/concept/Datenschutz>, <http://example.org/concept/Datensicherheit>, <http://example.org/concept/Datentyp>, <http://example.org/concept/DidaktischesSzenario>, <http://example.org/concept/Evaluation>, <http://example.org/concept/FDMServices>, <http://example.org/concept/Feedback>, <http://example.org/concept/InformierteEinwilligung>, <http://example.org/concept/Integrität>, <http://example.org/concept/Interoperabilität-todo>, <http://example.org/concept/ITInfrastrukturen>, <http://example.org/concept/KontrolliertesVokabular>, <http://example.org/concept/Kompetenz>, <http://example.org/concept/Langzeitarchivierung>, <http://example.org/concept/LehrLernprozess>, <http://example.org/concept/Lernziel>, <http://example.org/concept/Metadaten>, <http://example.org/concept/Metadatenschema>, <http://example.org/concept/Metadatenstandard>, <http://example.org/concept/Objektorientierung>, <http://example.org/concept/Ontologie>, <http://example.org/concept/PersonenbezogeneDaten>, <http://example.org/concept/Programmierstruktur>, <http://example.org/concept/Proprietär>, <http://example.org/concept/Pseudonymisierung>, <http://example.org/concept/Repositorium>, <http://example.org/concept/Schöpfungshöhe>, <http://example.org/concept/Taxonomie>, <http://example.org/concept/Thesaurus>, <http://example.org/concept/Zugriffskontrolle>  .
 
 <http://example.org/concept/Anonymisierung>
   a skos:Concept ;
