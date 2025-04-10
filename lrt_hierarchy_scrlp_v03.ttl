@@ -16,7 +16,7 @@ dct:created "2025-04-09"^^xsd:date;
 dct:modified "2025-04-09"^^xsd:date;
 dct:issued "2025-04-09"^^xsd:date;
 dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-skos:hasTopConcept <ANLEITUNG>, <APP>, <ARBEITSBLATT>, <AUDIO>, <BILD>, <BROSCHUERE>, <DATEN>, <EBOOK>, <ENTDECKENDES_LERNEN>, <EXPERIMENT>, <EXPERTE>, <FALLSTUDIE>, <FLYER>, <GLOSSAR>, <HANDBUCH>, <HANDREICHUNG>, <INFOGRAFIK>, <INTERAKTION>, <KARTE>, <KURS>, <LEHRBUCH>, <LERNKONTROLLE>, <LERNSPIEL>, <MEDIENPAKET>, <MERKBLATT>, <MODELL>, <MUSIKNOTEN>, <OFFENE>, <POSTER>, <PRESENTATION>, <PROJECT>, <QUELLE>, <RADIO>, <RECHERCHE>, <REZEPT>, <ROLLENSPIEL>, <SIMULATION>, <SOFTWARE>, <SONSTIGES>, <TEST>, <TEXT>, <UBUNG>, <UNTERRICHTSBAUSTEIN>, <UNTERRICHTSPLANUNG>, <VERANSCHAULICHUNG>, <VIDEO>, <VIRTUAL>, <WEBSEITE>, <WEBTOOL>, <BARCAMP>, <METHODE>, <ERKLAERVIDEO>, <FRAGEBOGEN>, <GRUPPENARBEIT>, <LEHRPLANREFERENZ>, <LERNAUFGABE>, <LERNORT>, <LERNPORTAL>, <LOESUNG>, <METHODISCHE_APP>, <SELBSTEVALUATION>, <SOLE>, <SKRIPT>, <SPRACHLERNVIDEO>, <STATIONENLERNEN>, <TAFELBILD>, <UNTERRICHTSIDEE>, <WORTLISTE> .
+skos:hasTopConcept <ANLEITUNG>, <APP>, <ARBEITSBLATT>, <AUDIO>, <BILD>, <BROSCHUERE>, <DATEN>, <EBOOK>, <ENTDECKENDES_LERNEN>, <EXPERIMENT>, <EXPERTE>, <FALLSTUDIE>, <FLYER>, <GLOSSAR>, <HANDBUCH>, <HANDREICHUNG>, <INFOGRAFIK>, <INTERAKTION>, <KARTE>, <KURS>, <LEHRBUCH>, <LERNKONTROLLE>, <LERNSPIEL>, <MEDIENPAKET>, <MERKBLATT>, <MODELL>, <MUSIKNOTEN>, <OFFENE_AKTIVITAET>, <POSTER>, <PROJECT>, <QUELLE>, <RADIO_TV>, <RECHERCHE_AUFTRAG>, <REZEPT>, <ROLLENSPIEL>, <SIMULATION>, <SOFTWARE>, <SONSTIGES>, <TEST>, <TEXT>, <UNTERRICHTSBAUSTEIN>, <UNTERRICHTSPLANUNG>, <VERANSCHAULICHUNG>, <VIDEO>, <WEBSEITE>, <WEBTOOL>, <BARCAMP>, <METHODE>, <ERKLAERVIDEO>, <FRAGEBOGEN>, <GRUPPENARBEIT>, <LEHRPLANREFERENZ>, <LERNAUFGABE>, <LERNORT>, <LERNPORTAL>, <LOESUNG>, <METHODISCHE_APP>, <SELBSTEVALUATION>, <SOLE>, <SKRIPT>, <SPRACHLERNVIDEO>, <STATIONENLERNEN>, <TAFELBILD>, <UNTERRICHTSIDEE>, <VIRTUAL_REALITY_AUGMENTED_REALITY>, <WORTLISTE> .
 
 <ANLEITUNG> a skos:Concept ;
 skos:prefLabel "Anleitung"@de, "Instruction manual"@en ;
@@ -297,7 +297,7 @@ skos:topConceptOf <learningresourcetype> .
 <LERNPORTAL> a skos:Concept ;
 skos:prefLabel "Lernportal"@de, "Learning portal"@en ;
 skos:altLabel "Schulbuch-Portal"@de, "Textbook portal"@en ;
-skos:definition "Online-Plattform, die digitale Lernressourcen wie Schulbücher, Übungen, Kurse und andere Bildungsmaterialien zentral bereitstellt." ;
+skos:definition "Online-Plattform, die digitale Lernressourcen wie Schulbücher, Übungen, Kurse und andere Bildungsmaterialien zentral bereitstellt."@de ;
 skos:definition "Online platform that provides, as a central hub, digital learning resources such as textbooks, exercises, courses and other educational materials."@en ;
 skos:example "Online-Lernplattform, Schulbuch-Portal"@de ;
 skos:example "Online learning platform, textbook portal"@en ;
