@@ -321,7 +321,7 @@ skos:topConceptOf <learningresourcetype> .
     skos:altLabel "Mediensammlung"@de, "Collection"@en ;
     skos:definition "Ein Medienpaket ist eine zusammengehörige Sammlung von Medieninhalten, die als Einheit verteilt oder zusammenhängend (online) dargestellt wird. Es kann verschiedene Medienformate und -inhalte enthalten, die gemeinsam verwendet werden sollen."@de ;
     skos:definition "A media package is a coherent collection of media contents distributed as a single unit. It can include various media formats and contents intended to be used together."@en ;
-    skos:note: "Im Gegensatz zu einem Medienpaket, was bereits bei Produktion als Einheit geplant war, ist eine Mediensammlung i.e.S. eine (auch nachträgliche) Zusammenstellung verschiedener Medieninhalte, die **thematisch oder inhaltlich zusammengehören**."@de, "To Do: add English note"@en ;
+    skos:note: "Im Gegensatz zu einem Medienpaket, was bereits bei Produktion als Einheit geplant war, ist eine Mediensammlung i.e.S. eine (auch nachträgliche) Zusammenstellung verschiedener Medieninhalte, die **thematisch oder inhaltlich zusammengehören**."@de ;
     skos:example "Web-DVD (055er), Multimedia-Paket, Lernpaket, Präsentationspaket"@de ;
     skos:example "Multimedia package, learning package, presentation package"@en ;
     skos:topConceptOf <learningresourcetype> .
