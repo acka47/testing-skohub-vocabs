@@ -19,7 +19,15 @@
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en, "Computerprogramma"@nl, "Програмне забезпечення"@uk, "Počítačový program"@cs, "Application logicielle"@fr .
+           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en, "Computerprogramma"@nl, "Програмне забезпечення"@uk, "Počítačový program"@cs, "Application logicielle"@fr ;
+           skos:note """| Column 1      | Column 2      |
+| ------------- | ------------- |
+| Cell 1, Row 1 | Cell 2, Row 1 |
+| Cell 1, Row 2 | Cell 1, Row 2 |"""@en ,
+"""| Spalte 1      | Spalte 2      |
+| ------------- | ------------- |
+| Zelle 1, Reihe 1 | Zelle 2, Reihe 1 |
+| Zelle 1, Reihe 2 | Zelle 1, Reihe 2 |"""@de.
 
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
