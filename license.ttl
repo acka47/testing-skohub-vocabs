@@ -1,0 +1,65 @@
+@base <https://w3id.org/kim/license/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix sdo: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<> a skos:ConceptScheme ;
+    dct:title "KIM Lizenztypen-Vokabular"@de, "KIM license type vocabulary"@en ;
+    dct:description "Eine Wertelliste für Typen von Lizenzen entwickelt und publiziert vom Kompetenzzentrum für Interoperable Metadaten (KIM)."@de, "A value list for   types of licenses developed and published by KIM."@en ;
+    dct:publisher <http://www.wikidata.org/entity/Q1718705> ;
+    dct:issued "2021-08-04" ;
+    vann:preferredNamespaceUri "https://w3id.org/kim/license/" ;
+    vann:preferredNamespacePrefix "license" ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <publicDomain>, <attribution>, <shareAlike>, <noDerivatives>, <nonCommercial>, <nonCommercial-noDerivatives>, <noLicense> .
+
+<publicDomain> a skos:Concept ;
+    skos:altLabel "Public Domain"@en , "PD"@en , "PD"@de , "Public Domain"@de  ;
+    sdo:image <https://mirrors.creativecommons.org/presskit/icons/pd.svg> ;
+    skos:prefLabel "Keine Einschränkungen"@de,
+        "No Restrictions"@en ;
+    skos:topConceptOf <> .
+
+<attribution> a skos:Concept ;
+    sdo:image <https://mirrors.creativecommons.org/presskit/icons/by.svg> ;
+    skos:prefLabel "Namensnennung"@de,
+        "Attribution"@en ;
+    skos:altLabel "BY"@en, "BY"@de;
+    skos:topConceptOf <> .
+
+<shareAlike> a skos:Concept ;
+    sdo:image <https://mirrors.creativecommons.org/presskit/icons/sa.svg> ;
+    skos:prefLabel "Änderungen unter gleichen Bedingungen"@de,
+        "Share Alike"@en ;
+    skos:altLabel "SA"@de, "Copyleft"@de, "virale Lizenz"@de,
+        "SA"@en, "Copyleft"@en, "viral license"@en;
+    skos:topConceptOf <> .
+
+<noDerivatives> a skos:Concept ;
+    sdo:image <https://mirrors.creativecommons.org/presskit/icons/nd.svg> ;
+    skos:prefLabel "Keine Bearbeitung"@de,
+        "No Derivatives"@en ;
+    skos:altLabel "ND"@en, "ND"@de;
+    skos:topConceptOf <> .
+
+<nonCommercial> a skos:Concept ;
+    sdo:image <https://mirrors.creativecommons.org/presskit/icons/nc-eu.svg> ;
+    skos:prefLabel "Nicht kommerziell"@de,
+        "Non Commercial"@en ;
+    skos:altLabel "NC"@en, "NC"@de;
+    skos:topConceptOf <> .
+
+<nonCommercial-noDerivatives> a skos:Concept ;
+    skos:altLabel "CC-BY-SA"@en ;
+    sdo:image <> ;
+    skos:prefLabel "Nicht-kommerziell - Keine Bearbeitung"@de,
+        "Non Commercial - No Derivatives"@en ;
+    skos:altLabel "NC-ND"@en, "NC-ND"@de;
+    skos:topConceptOf <> .
+
+<noLicense> a skos:Concept ;
+    sdo:image <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png> ;
+    skos:prefLabel "Keine Lizenzangabe"@de,
+        "No license"@en ;
+    skos:topConceptOf <> .
